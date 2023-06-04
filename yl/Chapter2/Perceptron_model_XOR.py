@@ -7,7 +7,7 @@ from torch.utils.data import DataLoader
 from torchmetrics.functional import accuracy
 
 print("torch version:", torch.__version__)
-print("pytorch ligthening version:", pl.__version__)
+print("pytorch lightning version:", pl.__version__)
 
 xor_input = [Variable(torch.Tensor([0, 0])),
              Variable(torch.Tensor([0, 1])),
